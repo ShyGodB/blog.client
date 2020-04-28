@@ -8,6 +8,8 @@ import tool from './util/tool'
 import rules from './util/rules'
 import Element from 'element-ui'
 import "./registerServiceWorker"
+import 'element-ui/lib/theme-chalk/index.css'
+import 'element-ui/lib/theme-chalk/display.css'
 
 Vue.use(Element)
 
