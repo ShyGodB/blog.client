@@ -4,27 +4,12 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module",
-        "parser": "babel-eslint",
         "allowImportExportEverywhere": false,
         "codeFrame": false
-    },
-    "globals": {
-        Buffer: true,
-        process: true,
-        config: true,
-        __dirname: true,
-        redis: true,
-        instanceId: true,
-        log: true,
-        db: true,
-        help: true,
     },
     "rules": {
         "indent": ["warn", 4], // 缩进风格
