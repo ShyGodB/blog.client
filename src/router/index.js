@@ -3,17 +3,19 @@ import VueRouter from "vue-router"
 
 Vue.use(VueRouter)
 
+import Layout from '@/Layout/Index.vue'
+
 const routes = [
-    {
-        path: "/",
-        name: "Home",
-        component: () => import('@/views/Home.vue')
-    },
     {
         path: "/login",
         name: "Login",
         component: () => import('@/views/Login.vue')
-    }
+    },
+    {
+        path: "/",
+        name: "Home",
+        component: Layout
+    },
 ]
 
 const router = new VueRouter({

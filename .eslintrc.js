@@ -4,12 +4,12 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module",
         "allowImportExportEverywhere": false,
-        "codeFrame": false
+        "codeFrame": false,
+        "parser": "babel-eslint"
     },
     "rules": {
         "indent": ["warn", 4], // 缩进风格
